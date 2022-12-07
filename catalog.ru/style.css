@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap');
+.sec1{
+     background-color:  #4750FF;
+     width: 100%;
+     height: 575px;
+ }
+.sec2{
+
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    background: none;
+    color:#4750FF ;
+    height: 400px;
+  width: 300px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 20px;
+}
+html {
+    height: 100%; /* Высота страницы */
+}
+body {
+    margin: 0;
+}
+
+.roo{
+    height: 25px;
+    width: 20px;
+    margin-top:20px;
+    position: absolute;
+
+}
+.mask1{
+    width: 100%;
+    position: absolute;
+    height: 200px;
+    margin: 375px 0 0 0;
+}
+.mask{
+    width: 310px;
+    position: absolute;
+    height: 450px;
+    margin: 120px 0 0 230px;
+    z-index: 1;
+}
+.zag{
+    font-size: 25px;
+    color: white;
+    font-family:"Oswald";
+    text-align: left;
+    width: 350px;
+    margin: 125px 0 0 750px;
+    position: absolute;
+    font-weight: bold;
+
+}
+.zag2{
+    font-size: 12px;
+    color: white;
+    font-family: "Oswald";
+    width: 340px;
+    text-align: left;
+    margin: 240px 0 0 750px;
+    position: absolute;
+}
+.line{
+    border-bottom: 1px solid white;
+    width: 420px;
+    margin: 300px 0 0 750px;
+    position: absolute;
+}
+
+
+
+.list {
+    display: grid;
+    grid-auto-flow: dense;
+    position: relative;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 140px);
+    grid-auto-rows: 219px;
+    grid-gap: 220px 190px
+}
+
+#cont{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding-left: 10px;
+    align-items: center;
+
+
+
+}
+
+
+
+.content{
+    margin: 0 11vw 0 11vw;
+    position: relative;
+    padding: 100px 96px 100px 96px;
+    height: fit-content;
+}
+.poisk {
+    width: auto;
+    float:right;
+    margin: 0 100px 0 0;
+
+}
+input {
+
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #4750FF;
+    background: none;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+input:focus {
+    width: 300px;
+}
+button {
+
+    width: 42px;
+    height: 42px;
+    background: none;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+
+}
+button:before{
+    border: none;
+    cursor: pointer;
+    font-family:"Oswald";
+
+}
+
+.lup{
+    width: 20px;
+    height: 20px;
+
+}
+.sh{
+
+   font-weight: bold;
+    margin-left: 100px;
+    font-size: 22px;
+    color: #4750FF;
+    font-family:"Oswald";
+    text-align: left;
+    position: absolute;
+
+}
+
+
+.buttshanr{
+
+}
+#advanches{
+    font-size: 20px;
+    color: black;
+    font-family:"Oswald";
+    text-align: center;
+    font-weight: bold;
+    margin-left: 630px;
+    width: 175px;
+    position: absolute;
+    margin-top: 200px;
+    border-bottom: none;
+}
+#roman{
+    margin-top: 200px;
+    font-size: 20px;
+    color: black;
+    font-family:"Oswald";
+    text-align: center;
+    font-weight: bold;
+    margin-left: 350px;
+    width: 175px;
+    position: absolute;
+    border-bottom: none;
+}
+#child{
+    margin-top: 200px;
+    font-size: 20px;
+    color: black;
+    font-family:"Oswald";
+    text-align: center;
+    font-weight: bold;
+    margin-left: 100px;
+    width: 175px;
+    position: absolute;
+    border-bottom: none;
+}
+#all{
+    margin-top: 200px;
+    font-size: 20px;
+    color: black;
+    font-family:"Oswald";
+    text-align: center;
+    font-weight: bold;
+    margin-left: 900px;
+    width: 175px;
+    position: absolute;
+    border-bottom: none;
+}
+.izmena{
+    margin-top: 500px ;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.udalit{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 500px;
+}
+.room{
+    height: 35px;
+    width: 30px;
+    margin:20px;
+    position: absolute;
+
+}
+.ju{
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    margin: 0 0 0 690px;
+
+}
+.podval{
+    position: absolute;
+  width: 1263px;
+    height: 500px;
+
+}
+.fut{
+margin: 2000px 1000px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*'''*/
+.secc{
+    margin-top: 100px;
+
+}
+.panel {
+
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+    border-bottom: 2px solid rgb(71, 80, 255);
+}
+
+#buttshanr{
+    margin: 150px 0 0 300px;
+gap: 50px;
+    display: grid;
+    grid-auto-flow: dense;
+    position: relative;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 140px);
+    grid-auto-rows: 219px;
+}
+
+#buttshanr button{
+  position: relative;
+}
+
+.name{
+    cursor: pointer;
+}
+#form-container{
+    display: none;
+    align-items: center;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+}
+#form{
+    width: 570px;
+    margin-left: 830px;
+    padding-bottom: 100px;
+}
+
+#img{
+    width: 150px;
+    height: 250px;
+    float: right;
+    margin: 100px 80px 0 0;
+}
+.name {
+text-align: center;
+}
+
+#bookimg{
+    width: 300px;
+    height: 400px;
+    margin-left: 250px;
+}
+.del{
+    margin: 0 0 0 300px;
+}
+.dob{
+    font-size: 25px;
+    color: rgb(0, 82, 234);
+    font-family:"Oswald";
+
+    width: 350px;
+
+    font-weight: bold;
+    margin: 100px 0 30px 115px;
+
+}
+.otvrav{
+    font-size: 15px;
+    color: rgb(0, 82, 234);
+    font-family:"Oswald";
+
+    width: 350px;
+
+    font-weight: bold;
+
+}
+.na{
+    margin-left: 42px;
+    margin-bottom: 20px;
+}
+.av{
+    margin-left: 42px;
+    margin-bottom: 20px;
+}
+.go{
+    margin-left: 42px;
+    margin-bottom: 20px;
+}
+.op{
+    margin-left: 42px;
+    margin-bottom: 20px;
+}
+.sha{
+    margin-left: 42px;
+    margin-bottom: 20px;
+}
+.phot{
+    margin-left: 42px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.butclas{
+    color: #4750FF;
+    font-family: Oswald;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.name{
+    font-size: 18px;
+    text-align:center ;
+    color: #0052ea;
+    font-family:"Oswald";
+    position: absolute;
+    font-weight: bold;
+    margin-left: 90px;
+    width: 120px;
+
+}
+.avtor{
+
+    font-size: 12px;
+    text-align:center ;
+    color: #0052ea;
+    font-family:"Oswald";
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+.ref{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 50px;
+}
+.bonew{
+    width: 50px;
+    height: 35px;
+   margin-left: 10px;
+margin-top: 17px;
+}
+
+.type{
+    font-size: 18px;
+    text-align:center ;
+    color: #0052ea;
+    font-family:"Oswald";
+
+
+
+}
+.type1{
+    font-size: 20px;
+    text-align:center ;
+    color: #0052ea;
+    font-family:"Oswald";
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+
+.delle1{
+    width: 50px;
+    height: 50px;
+    margin-left: 420px;
+    margin-top: 50px;
+
+}
+.ref1{
+    width: 50px;
+    height: 50px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.newdata{
+    font-size: 18px;
+margin-left: 80px;
+    color: #0052ea;
+    font-family:"Oswald";
+}
+.em{
+    margin-left: 42px;
+    margin-bottom: 20px;
+}
+.er{
+    font-size: 15px;
+    color: rgb(0, 82, 234);
+    font-family:"Oswald";
+
+    width: 350px;
+
+    font-weight: bold;
+}
+.foot{
+
+width: 100%;
+    height: 300px;
+}
+.flo{
+width: 700px;
+    position: absolute;
+    height: 500px ;
+}
+.bot{
+    position: absolute;
+    width: 800px ;
+    height: 100px;
+
+
+
+}
